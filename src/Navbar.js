@@ -7,7 +7,11 @@ const Navbar = () => {
         <a herf="/projects">Projects</a>
         <a herf="/about">About</a>
         <a herf="/contact">Contact</a>
-        <a herf="/resume">Resume</a>
+        <a herf="/resume" style={{
+          color:'white',
+          backgroundColor: 'red',
+          borderRadius: '8px'
+        }}>Resume</a>
       </div>
     </nav>
    );

@@ -1,0 +1,36 @@
+.footer-container {
+  background-color: #242424;
+  padding: 4rem 0 2 rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+}
+
+/* social icons */
+.social-icon-link {
+color: #fff;
+font-size: 35px;
+}
+
+/* .social-media {
+  max-width: 1000px;
+  width: 100%;
+} */
+
+.social-media-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto 0 auto;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+

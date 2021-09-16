@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../App.css';
+import Footer from '../Footer';
 
 export default function Contact() {
   return (
@@ -23,6 +24,7 @@ export default function Contact() {
         </form>
         <button className="form-btn">Submit</button>
       </container>
+      <Footer />
     </>
   )
 

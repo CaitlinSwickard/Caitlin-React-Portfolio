@@ -7,7 +7,6 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className="hero-container">
-      <img src="images/yellowcupbackground.jpeg" alt="image of computer and yellow cup"/>
       <h1>Caitlin Swickard</h1>
       <p>Full Stack Web Developer</p>
       <div className="hero-btns">

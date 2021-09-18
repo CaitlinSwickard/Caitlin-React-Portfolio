@@ -1,4 +1,5 @@
 import * as React from 'react';
+import '../../App.css';
 import Grid from '@material-ui/core/Grid';
 import Card from '@mui/material/Card';
 import { Container } from '@material-ui/core';
@@ -7,15 +8,16 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Footer from '../Footer';
 
 export default function MediaCard() {
   return (
     <>
-      <Container>
+      <Container className='card-container'>
         {/* Project Really good fake store */}
-        <Grid container>
+        <Grid container spacing={3}>
           <Grid item xs={12} md={6} lg={4}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 400 }}>
               <CardMedia
                 component="img"
                 height="140"
@@ -27,20 +29,21 @@ export default function MediaCard() {
                   Really Good Fake Store
         </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  This project is a mock e-commerce store complete with cart function
-                  and sign-in authentication.
+                  This app is a mock e-commerce website. The user can view our product or view by category with creating a user
+                  account. The user must create an account to be able to add, delete or update qty in their cart. If the user
+                  logs out and and logs back in the items in the cart will remain for the user.
         </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <a href="https://really-good-fake-store.herokuapp.com/" >Heroku App</a>
+                <a href="https://github.com/CaitlinSwickard/Really-Good-Fake-Store" >Github</a>
               </CardActions>
             </Card>
           </Grid>
 
           {/* team profile generator */}
           <Grid item xs={12} md={6} lg={4}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 400 }}>
               <CardMedia
                 component="img"
                 height="140"
@@ -52,19 +55,23 @@ export default function MediaCard() {
                   Team Profile Generator
         </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  A project.....
-        </Typography>
+                  This project is a Node.js command-line application that takes in information about employees on a software engineering team,
+                  then generates an HTML webpage that displays summaries for each person.
+                  <br></br>
+                  <br></br>
+                  <br></br>
+                </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <a href="https://github.com/CaitlinSwickard/Team-profile-generator" >Github</a>
+                <a href="https://drive.google.com/file/d/16I2oHlp4BGfhdQ6lG-6sOZBrRcYuVOAZ/view" >Video Demo</a>
               </CardActions>
             </Card>
           </Grid>
 
           {/* project Urban Cipher */}
           <Grid item xs={12} md={6} lg={4}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 400 }}>
               <CardMedia
                 component="img"
                 height="140"
@@ -76,19 +83,21 @@ export default function MediaCard() {
                   Urban Cipher
         </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  This project....
+                  Deconstruct the lyrics of your favorite song and understand the deeper meaning. This app allows you to search by
+                  an artist and their song title. We then generate the lyrics of the song you selected. From there you can use our
+                  dictionary search functions to look up a lyric to the song to help deconstruct the song.
         </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <a href="https://maximosandoval.github.io/urban-cipher/" >Live Page</a>
+                <a href="https://github.com/CaitlinSwickard/urban-cipher" >Github</a>
               </CardActions>
             </Card>
           </Grid>
 
           {/* ecommerce back end */}
           <Grid item xs={12} md={6} lg={4}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 400 }}>
               <CardMedia
                 component="img"
                 height="140"
@@ -100,19 +109,20 @@ export default function MediaCard() {
                   E-commerce Backend
         </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  A project...
+                  In this project I built out the back end for an e-commerce site by modifying starter code.
+                  Configured a working Express.js API to use Sequelize to interact with a MySQL database.
         </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <a href="https://github.com/CaitlinSwickard/E-Commerce-Back-End" >Github</a>
+                <a href="https://drive.google.com/file/d/1OK0mcV8EBXbN9NJmn3xaCKlokZ0TQHeM/view" >Video Demo</a>
               </CardActions>
             </Card>
           </Grid>
 
           {/* weather dashboard */}
           <Grid item xs={12} md={6} lg={4}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 400 }}>
               <CardMedia
                 component="img"
                 height="140"
@@ -124,19 +134,22 @@ export default function MediaCard() {
                   Weather Dashboard
         </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  This project...
-        </Typography>
+                  This project is a Weather Dashboard for a city that the user wants to look up. This page
+                  will display the current weather for the city as well as a 5 day weather forecast.
+                  <br></br>
+                  <br></br>
+                </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <a href="https://caitlinswickard.github.io/API-Weather-Dashboard/" >Live Page</a>
+                <a href="https://github.com/CaitlinSwickard/API-Weather-Dashboard" >Github</a>
               </CardActions>
             </Card>
           </Grid>
 
           {/* Note taker app */}
           <Grid item xs={12} md={6} lg={4}>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 400 }}>
               <CardMedia
                 component="img"
                 height="140"
@@ -148,17 +161,19 @@ export default function MediaCard() {
                   Note Taker App
         </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  This project...
+                  This project is an application called Note Taker that can be used to write and save notes.
+                  This application uses an Express.js back end and will save and retrieve note data from a JSON file.
         </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <a href="https://peaceful-wildwood-17368.herokuapp.com/" >Heroku App</a>
+                <a href="https://github.com/CaitlinSwickard/Note-taker-app" >Github</a>
               </CardActions>
             </Card>
           </Grid>
         </Grid>
       </Container>
+      <Footer />
 
     </>
   );

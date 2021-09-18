@@ -18,14 +18,14 @@
 .resume,
 .contact {
   display: flex;
-  height: 90vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
 }
 
 .about-me {
-  /* background-image: url('/images/img-2.jpg'); */
+  /* background-image: url('/images/yellow-dot-circle.png'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@
 }
 
 .resume {
-  /* background-image: url('/images/img-1.jpg'); */
+  /* background-image: url('/images/yellow-circle.png'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 }
 
 .contact {
-  /* background-image: url('/images/img-8.jpg'); */
+  /* background-image: url('/images/yellow-dot-circle.png'); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

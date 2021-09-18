@@ -15,9 +15,9 @@ export default function MediaCard() {
     <>
       <Container className='card-container'>
         {/* Project Really good fake store */}
-        <Grid container spacing={3}>
+        <Grid container >
           <Grid item xs={12} md={6} lg={4}>
-            <Card sx={{ maxWidth: 400 }}>
+            <Card sx={{ maxWidth: 400 }} className='card'>
               <CardMedia
                 component="img"
                 height="140"
@@ -43,7 +43,7 @@ export default function MediaCard() {
 
           {/* team profile generator */}
           <Grid item xs={12} md={6} lg={4}>
-            <Card sx={{ maxWidth: 400 }}>
+            <Card sx={{ maxWidth: 400 }} className='card'>
               <CardMedia
                 component="img"
                 height="140"
@@ -71,7 +71,7 @@ export default function MediaCard() {
 
           {/* project Urban Cipher */}
           <Grid item xs={12} md={6} lg={4}>
-            <Card sx={{ maxWidth: 400 }}>
+            <Card sx={{ maxWidth: 400 }} className='card'>
               <CardMedia
                 component="img"
                 height="140"
@@ -97,7 +97,7 @@ export default function MediaCard() {
 
           {/* ecommerce back end */}
           <Grid item xs={12} md={6} lg={4}>
-            <Card sx={{ maxWidth: 400 }}>
+            <Card sx={{ maxWidth: 400 }} className='card'>
               <CardMedia
                 component="img"
                 height="140"
@@ -124,7 +124,7 @@ export default function MediaCard() {
 
           {/* weather dashboard */}
           <Grid item xs={12} md={6} lg={4}>
-            <Card sx={{ maxWidth: 400 }}>
+            <Card sx={{ maxWidth: 400 }} className='card'>
               <CardMedia
                 component="img"
                 height="140"
@@ -152,7 +152,7 @@ export default function MediaCard() {
 
           {/* Budget tracker app */}
           <Grid item xs={12} md={6} lg={4}>
-            <Card sx={{ maxWidth: 400 }}>
+            <Card sx={{ maxWidth: 400 }} className='card'>
               <CardMedia
                 component="img"
                 height="140"

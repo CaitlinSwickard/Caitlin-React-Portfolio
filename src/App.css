@@ -25,29 +25,29 @@
 }
 
 .about-me {
-  background-image: url('./images/yellow-dot-circle.png');
+  background-image: url('./images/img6.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: black;
+  color: white;
   font-size: 100px;
 }
 
 .resume {
-  background-image: url('./images/yellow-circle.png');
+  background-image: url('./images/img6.png');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
-  color: black;
+  color: white;
   font-size: 100px;
 }
 
 .contact {
-  background-image: url('./images/yellow-dot-circle.png');
+  background-image: url('./images/img6.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: black;
+  color: white;
   font-size: 100px;
 }
 
@@ -97,6 +97,10 @@
   border-radius: 0.3rem;
 } */
 
+
+
+
+
 /* project cards css */
 .card-links {
   color: #242424;
@@ -110,4 +114,12 @@
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
+}
+
+.card {
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
 }

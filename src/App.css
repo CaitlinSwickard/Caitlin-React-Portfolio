@@ -53,49 +53,7 @@
 
 
 
-/* contact page form css */
-.form-btn {
-  text-align: center;
-  display: inline-block;
-  padding: 0.5rem 1.2rem;
-  margin: 10px;
-  text-decoration: none;
-  font-size: 1rem;
-  border-radius: 0.3rem;
-  border: 1px solid transparent;
-  outline: none;
-  color: #1a1a1a;
-  background-color: #aeaeae;
-  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 
-}
-
-.name,
-.email,
-.message {
-  display: block;
-  width: 100%;
-  margin: 0.625rem 0;
-}
-
-.name,
-.email,
-.message {
-  display: block;
-}
-
-/* .name,
-.email,
-.message {
-  width: 100%;
-  padding: 0.65rem;
-  color: #1a1a1a;
-  background-color: #ffffff;
-  margin: 0.600rem 0;
-  font-size: 1rem;
-  border: 1px solid #484848;
-  border-radius: 0.3rem;
-} */
 
 
 

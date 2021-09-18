@@ -35,8 +35,8 @@ export default function MediaCard() {
         </Typography>
               </CardContent>
               <CardActions>
-                <a href="https://really-good-fake-store.herokuapp.com/" >Heroku App</a>
-                <a href="https://github.com/CaitlinSwickard/Really-Good-Fake-Store" >Github</a>
+                <a className='card-links' href="https://really-good-fake-store.herokuapp.com/" >Heroku App</a>
+                <a className='card-links' href="https://github.com/CaitlinSwickard/Really-Good-Fake-Store" >Github</a>
               </CardActions>
             </Card>
           </Grid>
@@ -63,8 +63,8 @@ export default function MediaCard() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <a href="https://github.com/CaitlinSwickard/Team-profile-generator" >Github</a>
-                <a href="https://drive.google.com/file/d/16I2oHlp4BGfhdQ6lG-6sOZBrRcYuVOAZ/view" >Video Demo</a>
+                <a className='card-links' href="https://github.com/CaitlinSwickard/Team-profile-generator" >Github</a>
+                <a className='card-links' href="https://drive.google.com/file/d/16I2oHlp4BGfhdQ6lG-6sOZBrRcYuVOAZ/view" >Video Demo</a>
               </CardActions>
             </Card>
           </Grid>
@@ -89,8 +89,8 @@ export default function MediaCard() {
         </Typography>
               </CardContent>
               <CardActions>
-                <a href="https://maximosandoval.github.io/urban-cipher/" >Live Page</a>
-                <a href="https://github.com/CaitlinSwickard/urban-cipher" >Github</a>
+                <a className='card-links' href="https://maximosandoval.github.io/urban-cipher/" >Live Page</a>
+                <a className='card-links' href="https://github.com/CaitlinSwickard/urban-cipher" >Github</a>
               </CardActions>
             </Card>
           </Grid>
@@ -111,11 +111,13 @@ export default function MediaCard() {
                 <Typography variant="body2" color="text.secondary">
                   In this project I built out the back end for an e-commerce site by modifying starter code.
                   Configured a working Express.js API to use Sequelize to interact with a MySQL database.
+                  <br></br>
+                  <br></br>
         </Typography>
               </CardContent>
               <CardActions>
-                <a href="https://github.com/CaitlinSwickard/E-Commerce-Back-End" >Github</a>
-                <a href="https://drive.google.com/file/d/1OK0mcV8EBXbN9NJmn3xaCKlokZ0TQHeM/view" >Video Demo</a>
+                <a className='card-links' href="https://github.com/CaitlinSwickard/E-Commerce-Back-End" >Github</a>
+                <a className='card-links' href="https://drive.google.com/file/d/1OK0mcV8EBXbN9NJmn3xaCKlokZ0TQHeM/view" >Video Demo</a>
               </CardActions>
             </Card>
           </Grid>
@@ -138,36 +140,38 @@ export default function MediaCard() {
                   will display the current weather for the city as well as a 5 day weather forecast.
                   <br></br>
                   <br></br>
+                  <br></br>
                 </Typography>
               </CardContent>
               <CardActions>
-                <a href="https://caitlinswickard.github.io/API-Weather-Dashboard/" >Live Page</a>
-                <a href="https://github.com/CaitlinSwickard/API-Weather-Dashboard" >Github</a>
+                <a className='card-links' href="https://caitlinswickard.github.io/API-Weather-Dashboard/" >Live Page</a>
+                <a className='card-links' href="https://github.com/CaitlinSwickard/API-Weather-Dashboard" >Github</a>
               </CardActions>
             </Card>
           </Grid>
 
-          {/* Note taker app */}
+          {/* Budget tracker app */}
           <Grid item xs={12} md={6} lg={4}>
             <Card sx={{ maxWidth: 400 }}>
               <CardMedia
                 component="img"
                 height="140"
-                image="/images/Note-taker.png"
-                alt="Note taker"
+                image="/images/budget_tracker.png"
+                alt="graph of budget"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Note Taker App
+                  PWA Budget Tracker
         </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  This project is an application called Note Taker that can be used to write and save notes.
-                  This application uses an Express.js back end and will save and retrieve note data from a JSON file.
+                  This project is an application that allows a user to create and track a budget. The user will be able to add
+                  expenses and deposits to their budget with or without a connection. When entering transactions offline, they
+                  should populate the total when brought back online.
         </Typography>
               </CardContent>
               <CardActions>
-                <a href="https://peaceful-wildwood-17368.herokuapp.com/" >Heroku App</a>
-                <a href="https://github.com/CaitlinSwickard/Note-taker-app" >Github</a>
+                <a className='card-links' href="https://desolate-taiga-28989.herokuapp.com/" >Heroku App</a>
+                <a className='card-links' href="https://github.com/CaitlinSwickard/Online-Offline-Budget-Tracker" >Github</a>
               </CardActions>
             </Card>
           </Grid>

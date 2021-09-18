@@ -1,5 +1,5 @@
 .hero-container {
-  /* background: url('/images/yellow.jpg') center center/cover no-repeat; */
+  background: url('../images/yellowcup.jpeg') center center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display:flex;
@@ -11,14 +11,14 @@
 }
 
 .hero-container > h1 {
-  color: black;
+  color: whitesmoke;
   font-size: 100px;
   margin-top: -100px;
 }
 
 .hero-container > p {
   margin-top: 8px;
-  color: black;
+  color: whitesmoke;
   font-size: 32px;
 }
 

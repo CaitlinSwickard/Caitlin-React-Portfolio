@@ -11,6 +11,7 @@ import MediaCard from './components/pages/Projects';
 
 function App() {
 
+  // connections to each single page
   return (
     <>
       <Router>
@@ -21,8 +22,6 @@ function App() {
           <Route path="/resume" exact component={Resume} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/projects" exact component={MediaCard} />
-          
-
         </Switch>
       </Router>
     </>

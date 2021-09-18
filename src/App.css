@@ -25,7 +25,7 @@
 }
 
 .about-me {
-  /* background-image: url('/images/yellow-dot-circle.png'); */
+  background-image: url('./images/yellow-dot-circle.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -34,7 +34,7 @@
 }
 
 .resume {
-  /* background-image: url('/images/yellow-circle.png'); */
+  background-image: url('./images/yellow-circle.png');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 }
 
 .contact {
-  /* background-image: url('/images/yellow-dot-circle.png'); */
+  background-image: url('./images/yellow-dot-circle.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -98,3 +98,16 @@
 } */
 
 /* project cards css */
+.card-links {
+  color: #242424;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(53, 56, 61, 0.17);
+  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  border-radius: 10px;
+  overflow: hidden;
+  text-decoration: none;
+}

@@ -55,20 +55,17 @@
 
 
 
-
-
-
-
 /* project cards css */
 .card-links {
-  color: #242424;
+  background-color:#242424;
+  color: white;
   text-align: center;
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(53, 56, 61, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+  box-shadow: 10px 16px 20px rgba(13, 13, 14, 0.17);
+  /* -webkit-filter: drop-shadow(0 6px 20px rgba(9, 12, 15, 0.017)); */
+  /* filter: drop-shadow(0 6px 20px rgba(28, 29, 31, 0.017)); */
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -79,5 +76,4 @@
   margin-bottom:10px;
   margin-left: 10px;
   margin-right: 10px;
-  
 }

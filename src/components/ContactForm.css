@@ -14,9 +14,15 @@
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 
 }
-/* 
-.form {
-  display: flex;
-  flex-direction: column;
-  color: red;
-} */
+
+.fill-in {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.name {
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  
+}

@@ -1,54 +1,55 @@
 import * as React from 'react';
 import './ContactForm.css';
-
-import Box from '@mui/material/Box';
+import { Container } from '@material-ui/core';
 import TextField from '@mui/material/TextField';
+import { makeStyles } from '@material-ui/core/Styles';
 
 
-export default function MultilineTextFields() {
-  const [value, setValue] = React.useState('');
+const useStyles = makeStyles({
+  fields: {
+    marginTop: 20,
+    marginBottom: 20,
+    display: 'block'
+  }
+})
 
-  const handleChange = (event) => {
-    setValue(event.target.value);
-  };
+export default function Create() {
+  const classes = useStyles()
 
   return (
-    <Box
-      component="form"
-      sx={{
-        '& .MuiTextField-root': { m: 1, width: '25ch' },
-      }}
-      noValidate
-      autoComplete="off"
-    >
-      <div>
+    <Container>
+      <h4 className="fill-in">Please submit the following information:</h4>
+      <form autoComplete="off">
         <TextField
-          id="outlined-multiline-flexible"
-          label="Name"
-          multiline
-          // maxRows={4}
+          className={classes.fields}
+          label="name"
+          variant="outlined"
           fullWidth
-          value={value}
-          onChange={handleChange}
+          required
         />
         <TextField
-          id="outlined-textarea"
-          label="Email"
-          placeholder=""
+          className={classes.fields}
+          label="email"
+          variant="outlined"
           fullWidth
-          multiline
+          required
         />
         <TextField
-          id="outlined-multiline-static"
-          label="Message"
-          fullWidth
+          className={classes.fields}
+          label="message"
           multiline
-          // rows={4}
-          defaultValue=""
+          rows={4}
+          fullWidth
+          required
         />
-      </div>
-     <button className="form-btn">Submit</button>
+        <button className="form-btn">Submit</button>
+      </form>
 
-    </Box>
+    </Container>
+
   );
 }
+
+
+
+

@@ -13,7 +13,6 @@
   font-size: 3rem;
 }
 
-
 .about-me,
 .resume,
 .contact {
@@ -69,6 +68,7 @@
   border-radius: 50%;
 }
 
+
 /* resume section css */
 .card-content {
   text-align: center;
@@ -92,30 +92,32 @@
   margin-right: 10px;
 }
 
+/* .resume-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
 .h2 {
   text-align: center;
 }
 
 .resume-btn {
-  /* text-align: center; */
   display: flex;
-  align-items: center;
+  justify-content: center;
   padding: 0.5rem 1.2rem;
-  margin: 10px;
+  margin: auto;
+  width: 300px;
+  height: 50px;
   text-decoration: none;
   font-size: 1rem;
   border-radius: 0.3rem;
   border: 1px solid transparent;
   outline: none;
-  color: #1a1a1a;
-  background-color: #aeaeae;
-  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-
+  color: white;
+  background-color: #242424;
+  /* transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out; */
 }
-
-
-
-
 
 /* project cards css */
 .card-links {
@@ -126,8 +128,6 @@
   flex-flow: column;
   width: 100%;
   box-shadow: 10px 16px 20px rgba(13, 13, 14, 0.17);
-  /* -webkit-filter: drop-shadow(0 6px 20px rgba(9, 12, 15, 0.017)); */
-  /* filter: drop-shadow(0 6px 20px rgba(28, 29, 31, 0.017)); */
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;

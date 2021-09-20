@@ -75,8 +75,11 @@ export default function Resume() {
       </Container>
       <Container className='resume-container'>
         <h2 className='h2'>Download my resume</h2>
-        <button className="resume-btn">Click Here!</button>
+        <a href="/resources/Resume.pdf" target="_blank" className="resume-btn">Click Here!</a>
       </Container>
+      <br></br>
+      <br></br>
+      
 
       <Footer />
     </>

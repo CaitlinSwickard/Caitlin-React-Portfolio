@@ -9,8 +9,8 @@
   border-radius: 0.3rem;
   border: 1px solid transparent;
   outline: none;
-  color: #1a1a1a;
-  background-color: #aeaeae;
+  color: white;
+  background-color: #242424;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 
 }

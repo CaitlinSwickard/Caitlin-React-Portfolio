@@ -9,7 +9,7 @@ function Footer() {
         <section class='social-media'>
           <div class='social-media-wrap'>
             <div class='social-icons'>
-              <h3>Social Follow</h3>
+              <h3 className="social-follow">Social Follow</h3>
               <a href="https://github.com/CaitlinSwickard"
                 target="_blank"
                 className="social-icon-link github">

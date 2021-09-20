@@ -13,7 +13,7 @@ export default function Resume() {
   return (
     <>
       <h1 className="resume">My Resume</h1>
-      <Container>
+      <Container className="skills-container">
         <Grid container spacing={3}>
           <Grid item xs={12} md={6} lg={4}>
             <Card sx={{ maxWidth: 400 }} className='skills-card'>

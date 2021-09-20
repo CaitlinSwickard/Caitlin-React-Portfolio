@@ -8,15 +8,13 @@
 }
 
 /* social icons */
+.social-follow {
+  color:white;
+}
 .social-icon-link {
 color: #fff;
 font-size: 35px;
 }
-
-/* .social-media {
-  max-width: 1000px;
-  width: 100%;
-} */
 
 .social-media-wrap {
   display: flex;

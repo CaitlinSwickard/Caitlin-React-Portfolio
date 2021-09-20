@@ -24,13 +24,15 @@ font-size: 35px;
   align-items: center;
   width: 90%;
   max-width: 1000px;
-  margin: 40px auto 0 auto;
+  margin: auto;
+  
 }
 
 .social-icons {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: auto;
   width: 240px;
 }
 

@@ -40,6 +40,6 @@ JavaScript
 ![Shot-2](public/images/projects.jpeg)
 
 ### Credits
-Navbar Tutorial: [Brian Design](https://www.youtube.com/watch?v=I2UBjN5ER4s)
-Material UI Cards Tutorial: [Net Ninja](https://www.youtube.com/watch?v=M75MUZ1zVYM&t=555s)
-Material UI Form input Tutorial: [Net Ninja](https://www.youtube.com/watch?v=sTdt2cJS2dg&t=625s)
+- Navbar Tutorial: [Brian Design](https://www.youtube.com/watch?v=I2UBjN5ER4s)
+- Material UI Cards Tutorial: [Net Ninja](https://www.youtube.com/watch?v=M75MUZ1zVYM&t=555s)
+- Material UI Form input Tutorial: [Net Ninja](https://www.youtube.com/watch?v=sTdt2cJS2dg&t=625s)

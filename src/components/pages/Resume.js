@@ -7,15 +7,19 @@ import CardContent from '@mui/material/CardContent';
 // import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Footer from '../Footer';
+import Pdf from "../../resources/Resume.pdf";
+
 
 
 export default function Resume() {
+  function handleClick(e) { e.preventDefault(); window.open(Pdf); }
+
   return (
     <>
       <h1 className="resume">My Resume</h1>
       <Container className="skills-container">
         <Grid container spacing={3}>
-          <Grid item xs={12} md={6} lg={4}>
+          <Grid item xs={12} md={6} lg={4} >
             <Card sx={{ maxWidth: 400 }} className='skills-card'>
               <CardContent className='card-content'>
                 <Typography variant='h5' className='title'>
@@ -75,11 +79,11 @@ export default function Resume() {
       </Container>
       <Container className='resume-container'>
         <h2 className='h2'>Download my resume</h2>
-        <a href="/resources/Resume.pdf" target="_blank" className="resume-btn">Click Here!</a>
+        <button className="resume-btn" onClick={handleClick}>Click Here!</button>
+
       </Container>
       <br></br>
       <br></br>
-      
 
       <Footer />
     </>

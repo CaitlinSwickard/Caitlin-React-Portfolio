@@ -40,30 +40,29 @@ export default function MediaCard() {
             </Card>
           </Grid>
 
-          {/* team profile generator */}
+          {/* the social petwork*/}
           <Grid item xs={12} md={6} lg={4}>
             <Card sx={{ maxWidth: 400 }} className='card'>
               <CardMedia
                 component="img"
                 height="140"
-                image="/images/team-generator.png"
+                image="/images/mainpage.jpeg"
                 alt="team profile cards"
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
-                  Team Profile Generator
+                  The Social Petwork
         </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  This project is a Node.js command-line application that takes in information about employees on a software engineering team,
-                  then generates an HTML webpage that displays summaries for each person.
+                  This project is a social media application for pets! The user can signup/login, make post, like posts and view the timeline. The user can also edit or delete their own posts.
                   <br></br>
                   <br></br>
                   <br></br>
                 </Typography>
               </CardContent>
               <CardActions>
-                <a className='card-links' href="https://github.com/CaitlinSwickard/Team-profile-generator" >Github</a>
-                <a className='card-links' href="https://drive.google.com/file/d/16I2oHlp4BGfhdQ6lG-6sOZBrRcYuVOAZ/view" >Video Demo</a>
+                <a className='card-links' href="https://github.com/CaitlinSwickard/The-Social-Petwork" >Github</a>
+                <a className='card-links' href="https://serene-tundra-79280.herokuapp.com/registerpage" >Heroku App</a>
               </CardActions>
             </Card>
           </Grid>
@@ -94,6 +93,33 @@ export default function MediaCard() {
             </Card>
           </Grid>
 
+          {/* team profile generator */}
+          <Grid item xs={12} md={6} lg={4}>
+            <Card sx={{ maxWidth: 400 }} className='card'>
+              <CardMedia
+                component="img"
+                height="140"
+                image="/images/team-generator.png"
+                alt="team profile cards"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Team Profile Generator
+        </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  This project is a Node.js command-line application that takes in information about employees on a software engineering team,
+                  then generates an HTML webpage that displays summaries for each person.
+                  <br></br>
+                  <br></br>
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <a className='card-links' href="https://github.com/CaitlinSwickard/Team-profile-generator" >Github</a>
+                <a className='card-links' href="https://drive.google.com/file/d/16I2oHlp4BGfhdQ6lG-6sOZBrRcYuVOAZ/view" >Video Demo</a>
+              </CardActions>
+            </Card>
+          </Grid>
+
           {/* ecommerce back end */}
           <Grid item xs={12} md={6} lg={4}>
             <Card sx={{ maxWidth: 400 }} className='card'>
@@ -112,7 +138,7 @@ export default function MediaCard() {
                   Configured a working Express.js API to use Sequelize to interact with a MySQL database.
                   <br></br>
                   <br></br>
-        </Typography>
+                </Typography>
               </CardContent>
               <CardActions>
                 <a className='card-links' href="https://github.com/CaitlinSwickard/E-Commerce-Back-End" >Github</a>

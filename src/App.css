@@ -50,6 +50,13 @@
   font-size: 100px;
 }
 
+.contactinfo {
+  display:flex;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
 
 
 /* about me section css */
@@ -67,6 +74,7 @@
   height: 400px;
   border-radius: 50%;
 }
+
 
 
 /* resume section css */

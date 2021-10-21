@@ -3,7 +3,7 @@
 ## Description 
 This project is a personal portfolio for myself built with react. This portfolio is a single page application. It is complete with a navigation bar that directs the users between an About, Resume, Contact and Projects page. The Projects page is complete with six of my personal application with links to the deployed app and the github repo for that project. The Resume page has a list of technical skill as well as a button to download a PDF of my resume. The Contact page is completed with a form for a user to fill out complete with validation. This form is not linked to submit the information. The footer links between all pages and houses all the social following links. This portfolio is mobile responsive to multiple screen sizes. 
 
-[View deployed page here](https://happy-heisenberg-72ba96.netlify.app/)
+[View deployed page here](https://caitlin-swickard-portfolio.netlify.app/)
 
 - [Installation](#install)
 - [Usage](#usage)

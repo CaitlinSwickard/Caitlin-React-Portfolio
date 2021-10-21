@@ -20,10 +20,6 @@ function Footer() {
                 className="social-icon-link linkedin">
                 <i class='fab fa-linkedin' />
               </a>
-              <a href="/"
-                className="social-icon-link instagram">
-                <i class='fab fa-instagram' />
-              </a>
             </div>
           </div>
         </section>

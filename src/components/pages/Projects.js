@@ -121,7 +121,7 @@ export default function MediaCard() {
           </Grid>
 
           {/* ecommerce back end */}
-          <Grid item xs={12} md={6} lg={4}>
+          {/* <Grid item xs={12} md={6} lg={4}>
             <Card sx={{ maxWidth: 400 }} className='card'>
               <CardMedia
                 component="img"
@@ -145,7 +145,7 @@ export default function MediaCard() {
                 <a className='card-links' href="https://drive.google.com/file/d/1OK0mcV8EBXbN9NJmn3xaCKlokZ0TQHeM/view" >Video Demo</a>
               </CardActions>
             </Card>
-          </Grid>
+          </Grid> */}
 
           {/* weather dashboard */}
           <Grid item xs={12} md={6} lg={4}>

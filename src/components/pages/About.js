@@ -9,9 +9,12 @@ export default function About() {
     <>
       <h1 className="about-me">About Me</h1>
       <Container className="info">
-        <p className='info-p'>Full-stack web developer dedicated to building and optimizing user-centric websites.
-        Recently earned a certificate in full stack development from the University of Denver
-        with newly developed skills in JavaScript, CSS, Node.js, and responsive web design.</p>
+        <p className='info-p'>Full Stack Web developer specializing in MERN stack. I have experience in building projects from
+        ideation to execution. I am passionate about creating modern and clean user friendly applications.
+        Strong skills in team work, communication, prioritization, and project management.
+        </p>
+        <br></br>
+        <p>Technical programming skills include: JavaScript ES6+, HTML5, CSS3, RESTful Design, React, Node.js, Express.js, jQuery, Handlebars, Bootstrap, MongoDB/Mongoose, MySQL/Sequelize, Heroku, Git.</p>
         <img className="head-shot" src="/images/caitlin-headshot.png" alt="head-shot"></img>
       </Container>
 

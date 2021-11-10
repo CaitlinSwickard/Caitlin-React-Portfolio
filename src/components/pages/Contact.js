@@ -7,11 +7,11 @@ export default function Contact() {
   return (
     <>
       <h1 className="contact">Contact me</h1>
-      <Create />
+      {/* <Create /> */}
       
-      <h4 className="contactinfo">Caitlin6029@gmail.com</h4>
-      <h5 className="contactinfo">720.980.0888</h5>
-      <h5 className="contactinfo">Denver, CO 80222</h5>
+      <h1 className="contactinfo">Caitlin6029@gmail.com</h1>
+      <h2 className="contactinfo">720.980.0888</h2>
+      <h2 className="contactinfo">Denver, CO 80222</h2>
       
       <Footer />
     </>

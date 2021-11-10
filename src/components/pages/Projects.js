@@ -61,8 +61,8 @@ export default function MediaCard() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <a className='card-links' href="https://github.com/CaitlinSwickard/The-Social-Petwork" >Github</a>
                 <a className='card-links' href="https://serene-tundra-79280.herokuapp.com/registerpage" >Heroku App</a>
+                <a className='card-links' href="https://github.com/CaitlinSwickard/The-Social-Petwork" >Github</a>
               </CardActions>
             </Card>
           </Grid>
@@ -114,8 +114,8 @@ export default function MediaCard() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <a className='card-links' href="https://github.com/CaitlinSwickard/Team-profile-generator" >Github</a>
                 <a className='card-links' href="https://drive.google.com/file/d/16I2oHlp4BGfhdQ6lG-6sOZBrRcYuVOAZ/view" >Video Demo</a>
+                <a className='card-links' href="https://github.com/CaitlinSwickard/Team-profile-generator" >Github</a>
               </CardActions>
             </Card>
           </Grid>
